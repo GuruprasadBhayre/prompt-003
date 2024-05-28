@@ -1,0 +1,231 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Helvetica, sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.part1st{
+    width: 40%;
+    height: 90%;
+    background-color: rgb(148, 158, 255);
+    position: absolute;
+    top: 5%;
+    left: 9%;
+    border-radius: 40px;
+    background-image: url(https://images.unsplash.com/photo-1526318896980-cf78c088247c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 20% 70% ;
+    background-repeat: no-repeat;
+}
+.overlay > img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    /* background-color: transparent; */
+}
+#wellcome{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    
+}
+#foodforward{
+    position: absolute;
+    font-family:  sans-serif;
+
+    top: 23%;
+    left: 15%;
+    font-size: 35px;
+
+}
+#Create{
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(239, 236, 236);
+    padding: 8px 15px;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(230, 108, 74);
+}
+.overlay > h1{
+    color: whitesmoke;
+    font-size: 23px;
+    
+    text-transform: uppercase;
+    
+    position: absolute;
+    top: 55%;
+    left: 23%;
+    
+}
+.overlay > p{
+    color: whitesmoke;
+    font-size: 25px;
+    text-transform: capitalize;
+    line-height: 30px;
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    text-align: center;
+
+}
+#booknow{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(236, 236, 236);
+    padding: 8px 15px;
+    position: absolute;
+    top: 79%;
+    left: 35%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(230, 108, 74);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+}
+.part2nd{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://images.unsplash.com/photo-1612192527395-06b72da6b35a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 20% 70% ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5%;
+    right: 9%;
+    border-radius: 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+#signup{
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 3%;
+    right: 25%;
+}
+#login{
+    padding: 8px 15px;
+    background-color: rgb(230, 108, 74);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 3%;
+    right: 12%;
+}
+
+
+.overlay2nd{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 40px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 90vh; */
+    height: 95%;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.inputs-field{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background: rgba(0, 0, 0, 0.553);
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    background-color: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: 0,3s;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+
+}
+.left{
+    display: flex;
+}
+label{
+    color: #fff;
+    text-decoration: none;
+}
+
